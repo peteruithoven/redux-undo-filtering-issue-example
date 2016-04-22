@@ -16,7 +16,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r"
-   sodipodi:docname="visualization.svg">
+   sodipodi:docname="visualization.svg"
+   inkscape:export-filename="/home/peteruithoven/Projects/www/redux/redux-undo-filtering-issue-example/doc/visualization.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4">
     <marker
