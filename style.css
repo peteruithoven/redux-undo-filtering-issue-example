@@ -1,0 +1,11 @@
+#draggable {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #06f;
+  cursor: pointer;
+  transition: box-shadow 0.1s ease-out;
+}
+#draggable.dragging {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.75);
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Drag example with throttled undo</title>
+    <link rel="stylesheet" href="style.css" charset="utf-8">
+    <script src="jspm_packages/system.js" charset="utf-8"></script>
+    <script src="config.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <button id="undoButton" autofocus>Undo</button>
+    <div id="draggable"></div>
+    <script type="text/javascript">
+      System.trace = true;
+      System.import('systemjs-hot-reloader/default-listener.js');
+      System.import('./index.js');
+    </script>
+  </body>
+</html>
