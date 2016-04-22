@@ -1,1 +1,3 @@
-redux-undo-filtering-issue-example
+# Redux undo filtering issue example
+
+![Visualization](doc/visualization.png "Visualization")
