@@ -18,8 +18,8 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@1.2.6",
     "pepjs": "npm:pepjs@0.4.1",
-    "redux": "npm:redux@3.5.1",
-    "redux-undo": "npm:redux-undo@1.0.0-beta7",
+    "redux": "npm:redux@3.5.2",
+    "redux-undo": "github:omnidan/redux-undo@master",
     "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@0.5.7",
     "github:capaj/systemjs-hot-reloader@0.5.7": {
       "debug": "npm:debug@2.2.0",
@@ -85,6 +85,9 @@ System.config({
     },
     "github:jspm/nodelibs-vm@0.1.0": {
       "vm-browserify": "npm:vm-browserify@0.0.4"
+    },
+    "github:omnidan/redux-undo@master": {
+      "redux": "npm:redux@3.5.2"
     },
     "npm:asn1.js@4.5.2": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
@@ -252,7 +255,7 @@ System.config({
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
     "npm:isarray@1.0.0": {
-      "systemjs-json": "github:systemjs/plugin-json@0.1.1"
+      "systemjs-json": "github:systemjs/plugin-json@0.1.2"
     },
     "npm:lodash@4.11.1": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
@@ -322,16 +325,12 @@ System.config({
       "stream-browserify": "npm:stream-browserify@1.0.0",
       "string_decoder": "npm:string_decoder@0.10.31"
     },
-    "npm:redux-undo@1.0.0-beta7": {
-      "path": "github:jspm/nodelibs-path@0.1.0",
-      "redux": "npm:redux@3.5.1"
-    },
-    "npm:redux@3.5.1": {
+    "npm:redux@3.5.2": {
       "lodash": "npm:lodash@4.11.1",
       "lodash-es": "npm:lodash-es@4.11.1",
       "loose-envify": "npm:loose-envify@1.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2",
-      "symbol-observable": "npm:symbol-observable@0.2.2"
+      "symbol-observable": "npm:symbol-observable@0.2.4"
     },
     "npm:ripemd160@1.0.1": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
