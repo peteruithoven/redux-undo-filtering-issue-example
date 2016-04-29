@@ -14,6 +14,3 @@ const undoButton = document.getElementById('undoButton')
 undoButton.addEventListener('click', (event) => {
   store.dispatch(UndoActionCreators.undo())
 })
-
-// slight hack to store initial location
-store.dispatch(actions.dragStop());
