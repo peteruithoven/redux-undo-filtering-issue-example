@@ -17,7 +17,6 @@ System.config({
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@1.2.6",
-    "omnidan/redux-undo": "github:omnidan/redux-undo@0.6.1",
     "pepjs": "npm:pepjs@0.4.1",
     "redux": "npm:redux@3.5.1",
     "redux-undo": "npm:redux-undo@1.0.0-beta7",
@@ -86,9 +85,6 @@ System.config({
     },
     "github:jspm/nodelibs-vm@0.1.0": {
       "vm-browserify": "npm:vm-browserify@0.0.4"
-    },
-    "github:omnidan/redux-undo@0.6.1": {
-      "redux": "npm:redux@3.5.1"
     },
     "npm:asn1.js@4.5.2": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
