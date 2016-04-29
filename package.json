@@ -18,15 +18,21 @@
   },
   "jspm": {
     "dependencies": {
+      "omnidan/redux-undo": "github:omnidan/redux-undo@master",
       "pepjs": "npm:pepjs@^0.4.1",
       "redux": "npm:redux@^3.5.1",
-      "redux-undo": "npm:redux-undo@1.0.0-beta7",
+      "redux-undo": "github:omnidan/redux-undo@master",
       "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.5.7"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
       "core-js": "npm:core-js@^1.1.4"
+    },
+    "overrides": {
+      "github:omnidan/redux-undo@master": {
+        "format": "esm"
+      }
     }
   }
 }
