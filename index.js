@@ -18,6 +18,7 @@ undoButton.addEventListener('click', (event) => {
 function update() {
   const state = store.getState();
   draggable.update(state.draggable.present);
+  undoButton.disabled = (state.draggable.past.length === 0);
 }
 store.subscribe(update);
 update()
