@@ -14,11 +14,16 @@ const undoButton = document.getElementById('undoButton')
 undoButton.addEventListener('click', (event) => {
   store.dispatch(UndoActionCreators.undo())
 })
+const redoButton = document.getElementById('redoButton')
+redoButton.addEventListener('click', (event) => {
+  store.dispatch(UndoActionCreators.redo())
+})
 
 function update() {
   const state = store.getState();
   draggable.update(state.draggable.present);
   undoButton.disabled = (state.draggable.past.length === 0);
+  redoButton.disabled = (state.draggable.future.length === 0);
 }
 store.subscribe(update);
 update()
